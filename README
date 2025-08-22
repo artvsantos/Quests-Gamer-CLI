@@ -1,0 +1,14 @@
+# Quests Gamer CLI
+Um gerenciador de missões CLI com tema gamer, feito em Python. Organize suas tarefas para alcançar seu PC gamer dos sonhos! 🎮
+
+## Funcionalidades
+- Adicionar missões com nome, descrição e prioridade (alta/média/baixa).
+- Listar missões (todas, filtradas por status ou prioridade).
+- Marcar missões como completas.
+- Remover missões.
+- Persistência em JSON.
+
+## Como Usar
+```bash
+pip install -r requirements.txt
+python quests_cli.py add --name "Comprar GPU" --description "RTX 3080" --priority alta
